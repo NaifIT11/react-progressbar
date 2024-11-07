@@ -12,7 +12,7 @@ export default function ProgressUsage(){
 
   useEffect(()=>{
     if(progress<100){
-     const timer=setTimeout(()=>{
+     setTimeout(()=>{
       const p=progress+1;
       setProgress(p);
       console.log(p);
