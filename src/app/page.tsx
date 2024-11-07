@@ -2,8 +2,8 @@ import Progress from "./components/Progress";
 
 export default function Home() {
   return (
-    <div className="p-48">
-      <Progress value={34} />
+    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
     </div>
   )
 }
